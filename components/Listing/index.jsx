@@ -4,7 +4,12 @@ import BounceLoader from "react-spinners/BounceLoader";
 import Card from "../Card";
 
 const PokemonListing = (props) => {
-  const { isLoading, list, paginate, onPageChange } = usePokemonList(props);
+  const {
+    isLoading,
+    list = [],
+    paginate,
+    onPageChange,
+  } = usePokemonList(props);
 
   return (
     <main className="flex flex-col items-center justify-center flex-1 w-full px-4 text-center md:px-20 ">
