@@ -105,7 +105,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/VimLeSai"
+            href="https://github.com/VimLeSai/test-pokemon-grid"
             className="text-gray-600"
           >
             <svg
