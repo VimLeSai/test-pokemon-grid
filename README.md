@@ -17,4 +17,4 @@ and also used latest version of `react`, `react-dom` and `next`.
 
 # Deployed on Vercel
 
-You can also see running project on https://test-pokemon-grid-4ulnsdgia-vimlesai.vercel.app/
+You can also see running project on https://test-pokemon-grid.vercel.app/
