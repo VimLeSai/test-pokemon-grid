@@ -12,7 +12,7 @@ const Home = (props) => {
 
 export default Home;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const list = await fetchPokemonList();
   return { props: { list } };
 }

@@ -1,18 +1,14 @@
 import React from "react";
+import SearchBar from "shared/search";
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <header className="flex items-center justify-between w-screen py-6 px-36">
+    <header className="flex items-center justify-between w-screen max-w-4xl px-6 py-6 mx-auto">
       <h1 className="text-3xl font-bold">
-        Welcome to <label className="text-blue-600">Pokedex!</label>
+        <label className="text-blue-600">Pokedex!</label>
       </h1>
 
-      <div className="mt-3 text-2xl">
-        <input
-          placeholder="Search..."
-          className="p-3 font-mono text-lg bg-gray-100 rounded-md"
-        />
-      </div>
+      {Boolean(!props.noSearch) && <SearchBar />}
     </header>
   );
 };

@@ -5,15 +5,11 @@ import Card from "../Card";
 
 const PokemonListing = (props) => {
   const { isLoading, list, paginate, onPageChange } = usePokemonList(props);
-  console.log(
-    "🚀 ~ file: index.jsx ~ line 7 ~ PokemonListing ~ paginate",
-    paginate
-  );
 
   return (
-    <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center ">
+    <main className="flex flex-col items-center justify-center flex-1 w-full px-4 text-center md:px-20 ">
       <BounceLoader loading={isLoading} color="blue"></BounceLoader>
-      <div className="grid grid-cols-4 gap-6 mt-6 grid-wrap">
+      <div className="grid gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-wrap">
         {list.map((item, index) => (
           <Card key={`${item.name}-${index}`} {...item} />
         ))}

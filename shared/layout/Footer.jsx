@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="absolute bottom-0 w-full mt-24 bg-white border-t shadow">
       <div className="z-10 flex items-center justify-between h-12 max-w-4xl mx-auto">
         <a
-          className="flex items-center justify-center gap-2"
+          className="flex items-center justify-center gap-2 px-3"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -13,7 +13,7 @@ const Footer = () => {
           Made with ❤️ by{" "}
           <a href="https://www.google.com/search?q=%22VimLeSai%22">VimLeSai</a>
         </a>
-        <div className="flex justify-center">
+        <div className="flex justify-center px-3">
           <a
             target="_blank"
             rel="noreferrer"
