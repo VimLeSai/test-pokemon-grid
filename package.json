@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.2.3",
+    "next": "latest",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-pagination-bar": "^2.0.1",
+    "react-spinners": "^0.13.4",
+    "use-debounce": "^8.0.4"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^12.2.5",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.23.0",
+    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.2"
+  }
+}
